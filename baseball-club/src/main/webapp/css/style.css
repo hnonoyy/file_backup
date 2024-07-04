@@ -1,0 +1,1176 @@
+@charset "UTF-8";
+
+/*구글폰트*/
+@import
+	url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+* {
+	font-family: "Orbit", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 영역 사이즈 클래스 */
+.container {
+	width: 1140px;
+	margin: auto;
+	padding: 8px;
+}
+
+.wrap-md {
+	width: 720px;
+	margin: auto;
+}
+
+.wrap-sm {
+	width: 540px;
+	margin: auto;
+}
+
+.wrap-x-sm {
+	width: 360px;
+	margin: auto;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.align-left {
+	align-items: flex-start;
+}
+
+.align-right {
+	align-items: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-left {
+	justify-content: flex-start;
+}
+
+.justify-right {
+	justify-content: flex-end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.space-bg {
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.g-05 {
+	gap: 5px;
+}
+
+.g-1 {
+	gap: 10px;
+}
+
+.g-2 {
+	gap: 20px;
+}
+
+.g-3 {
+	gap: 30px;
+}
+
+.g-4 {
+	gap: 40px;
+}
+
+.g-5 {
+	gap: 50px;
+}
+
+/* 컴포넌트 너비 클래스 */
+.w-50 {
+	width: 50%;
+}
+
+.w-100 {
+	width: 100%;
+}
+/* 컴포넌트 테두리 클래스 */
+.border {
+	border: 1px solid #999;
+}
+
+.border-rounded {
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+.border-rounded2 {
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+}
+/* 글씨 정렬 클래스 */
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-inherit {
+	float: inherit;
+}
+
+.verical-align {
+	vertical-align: 50px;
+}
+
+/* 글씨 색상 클래스 */
+.warning {
+	color: red;
+}
+
+.emphasize {
+	color: #fd5740;
+}
+
+.logon {
+	color: #0080ff;
+}
+
+.hash {
+	color: #0080c0;
+}
+
+.kbo {
+	color: #0f4279;
+}
+
+.dark {
+	color: #000000;
+}
+
+.fs-1 {
+	font-size: 2rem;
+}
+
+.fs-2 {
+	font-size: 1.5rem;
+}
+
+.fs-3 {
+	font-size: 1.2rem;
+}
+
+.fs-4 {
+	font-size: 1.17rem;
+}
+
+.fs-5 {
+	font-size: 1.0rem;
+}
+
+.fs-6 {
+	font-size: 0.8rem;
+}
+
+.fs-6 {
+	font-size: 0.65rem;
+}
+/* 글씨 두께 */
+.fw-l {
+	font-weight: lighter;
+}
+
+.fw-b {
+	font-weight: bold;
+}
+/* 글씨 정렬 */
+.ta-i {
+	text-indent: -10px;
+}
+
+/* 기본 패딩 클래스 */
+.p-1 {
+	padding: 4px;
+}
+
+.p-2 {
+	padding: 8px;
+}
+
+.p-3 {
+	padding: 12px;
+}
+
+.p-4 {
+	padding: 16px;
+}
+
+.p-5 {
+	padding: 20px;
+}
+
+.p-6 {
+	padding: 30px;
+}
+
+.px-1 {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.px-2 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.px-3 {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.px-4 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.px-5 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* 기본 마진 클래스 */
+.mx {
+	margin: auto;
+}
+
+.mx-1 {
+	margin: auto 4px;
+}
+
+.mx-2 {
+	margin: auto 8px;
+}
+
+.mx-3 {
+	margin: auto 12px;
+}
+
+.mx-4 {
+	margin: auto 16px;
+}
+
+.mx-5 {
+	margin: auto 20px;
+}
+
+.my-1 {
+	margin: 4px auto;
+}
+
+.my-2 {
+	margin: 8px auto;
+}
+
+.my-3 {
+	margin: 12px auto;
+}
+
+.my-4 {
+	margin: 16px auto;
+}
+
+.my-5 {
+	margin: 20px auto;
+}
+
+.my-6 {
+	margin: 30px auto;
+}
+
+.me-1 {
+	margin-right: 4px;
+}
+
+.me-2 {
+	margin-right: 8px;
+}
+
+.me-3 {
+	margin-right: 12px;
+}
+
+.me-4 {
+	margin-right: 16px;
+}
+
+.me-5 {
+	margin-right: 20px;
+}
+
+/* 링크 클래스*/
+.no-deco-link {
+	color: #444;
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom: 4px;
+}
+.underline {
+	border-bottom: 2px solid #444;
+}
+/* 버튼 클래스 */
+.button {
+	text-align: center;
+	border: 1px solid #b3ddf7;
+	border-radius: 10px;
+	background-color: #bbd2e8;
+	color: #444;
+	font-weight: bold;
+	padding: 10px 30px;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	width: 200px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.button2:hover {
+	background-color: #0f4279;
+	color: white;
+}
+
+.b-1 {
+	border: 1px solid #b3ddf7;
+	border-radius: 10px;
+	background-color: #bbd2e8;
+	color: #444;
+	font-weight: bold;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.b-1:hover {
+	background-color: #0f4279;
+	color: white;
+}
+
+.b-2 {
+	text-align: center;
+	border: 1px solid #ff8080;
+	border-radius: 10px;
+	background-color: #ff8080;
+	color: #444;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.b-2:hover {
+	background-color: #f23728;
+	color: white;
+}
+
+.b-3 {
+	text-align: center;
+	border: 1px solid #ebebeb;
+	border-radius: 30px;
+	background-color: #ffffff;
+	color: #727272;
+	padding: 5px 15px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.b-3:hover {
+	border: 1px solid #afafaf;
+	background-color: #e9eded;
+	transition: linear.3s;
+}
+
+.b-4 {
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	background-color: #6fb7ff;
+	color: #ffffff;
+	padding: 5px 15px;
+	margin: 5px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.b-5 {
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	background-color: #92c6fa;
+	color: #ffffff;
+	padding: 5px 15px;
+	margin: 5px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+/* 박스 클래스 */
+.box-s1 {
+	width: 720px;
+	height: 100px;
+	margin: auto;
+}
+
+.box-s2 {
+	width: 720px;
+	height: 400px;
+	margin: auto;
+}
+
+.search-box {
+	width: 360px;
+	height: 30px;
+	margin: auto;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.fa-search {
+	position: relative;
+}
+
+.fa-search::before {
+	display: none;
+}
+
+.icon-search {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	color: #999;
+}
+/* 로그인 클래스 */
+.login {
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+
+.login_box {
+	width: 250x;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	display: flex;
+	overflow: hidden;
+}
+
+.login_box .left {
+	width: 100%;
+	height: 100%;
+	padding: 25px 25px;
+}
+
+.left .top_link a {
+	color: #452A5A;
+	font-weight: 400;
+}
+
+.left .top_link {
+	height: 20px
+}
+
+.left .contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	height: 100%;
+	width: 73%;
+	margin: auto;
+}
+
+.left h3 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.left input {
+	border: none;
+	width: 80%;
+	margin: 15px 0px;
+	border-bottom: 1px solid #4f30677d;
+	padding: 7px 9px;
+	width: 100%;
+	overflow: hidden;
+	background: transparent;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.left {
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.left .error-box{
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	background: white ; 
+	opacity : 0.75;
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #2d2d2d;
+	padding: 10px;
+}
+.submit {
+	border: none;
+	padding: 15px 70px;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	background: #0f4279;
+	color: #fff;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	-moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+.cancel {
+	border: none;
+	padding: 15px 70px;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	background: #f23728;
+	color: #fff;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	-moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+/* 회원가입 클래스 */
+.sign {
+	margin: auto;
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+
+.sign_box {
+	width: 700px;
+	height: 900px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	display: flex;
+	overflow: hidden;
+}
+
+.sign_box .in {
+	width: 100%;
+	height: 100%;
+	padding: 25px 25px;
+}
+
+.in .top_link a {
+	color: #452A5A;
+	font-weight: 400;
+}
+
+.in .top_link {
+	height: 20px
+}
+
+.in .contacts {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	min-height: 80%;
+	width: 80%;
+	margin: 50px auto;
+}
+
+.in h3 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.in input {
+	border: none;
+	width: 90%;
+	margin: 15px 0px;
+	border-bottom: 1px solid #4f30677d;
+	padding: 7px 9px;
+	overflow: hidden;
+	background: transparent;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.in [type=radio] {
+	border: none;
+	margin: 15px 0px;
+	border-bottom: 1px solid #4f30677d;
+	padding: 7px 9px;
+	overflow: hidden;
+	background: transparent;
+	font-weight: 600;
+	font-size: 14px;
+	width: auto;
+}
+
+.in {
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+
+.in input::placeholder {
+	color: #444;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-indent: -10px;
+}
+
+.submit {
+	border: none;
+	padding: 15px 70px;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	background: #0f4279;
+	color: #fff;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	-moz-box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+	box-shadow: 0px 9px 15px -11px rgba(88, 54, 114, 1);
+}
+/*마이페이지 클래스*/
+.mypage{
+	margin: auto;
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+.mypage-box {
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	padding: 10px;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	transform: translate(-50%, -30%);
+}
+
+.mypage button {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.mypage h2 {
+	text-align: left;
+	text-indent: 30px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.mypage .inbox {
+	position: absolute;
+	top: 50%;
+	left: 17%;
+	transform: translateY(-50%);
+}
+/*팔로우 클래스*/
+.follow{
+	margin: auto;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+.follow-box {
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	padding: 50px 30px;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	overflow: hidden;
+}
+
+.follower {
+	margin-top:100px;
+	width: 500px;
+	height: 800px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	padding: 50px 30px;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	overflow: hidden;
+}
+
+.follower li::marker {
+	content: '💙';
+	display: inline-block;
+}
+
+.board {
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.board_box {
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	padding: 20px;
+}
+
+.board_box h2 {
+	margin-bottom: 20px;
+}
+
+.board_box form {
+	display: flex;
+	flex-direction: column;
+}
+
+.board_box select, .board_box input, .board_box textarea {
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.board_box textarea {
+	resize: vertical;
+	height: 300px;
+	width: 100%;
+	resize: none;
+}
+
+.board_box button {
+	padding: 12px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*프로필 클래스*/
+.profile{
+	margin: auto;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+.profile-box {
+	width: 550px;
+	height: 380px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	padding: 30px 30px;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	overflow: hidden;
+}
+
+.profile h2 {
+	padding: 0;
+	margin: 5px;
+}
+
+.profile p {
+	padding: 0;
+	margin: 10px;
+}
+.profile img{
+	width: 150px; 
+	height: 180px;
+}
+
+/*회원탈퇴 클래스*/
+.withdraw {
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	padding: 20px 20px;
+	transform: translate(-50%, -30%);
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 4px 22px -8px #0004;
+	overflow: hidden;
+	text-align: center;
+}
+
+.withdraw input {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.withdraw p {
+	padding: 0;
+	margin: 10px;
+}
+/*게시판 클래스*/
+.board-list {
+	width: 1000px;
+	margin: auto;
+	top: 20%;
+	text-align: right;
+}
+
+.board-list p {
+	font-size: 2.2rem;
+	text-align: left;
+}
+
+.board-list table {
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.board-list thead tr {
+	height: 60px;
+	background: #bbd2e8;
+	font-size: 20px;
+	font-weight: Black;
+}
+
+.board-list td, th {
+	padding-left: 8px;
+	text-align: center;
+}
+
+.board-list tbody tr {
+	height: 48px;
+	border-bottom: 1px solid #d7e6fd;
+}
+
+.board-list table tr:hover {
+	background-color: #e8eff2;
+}
+/*일정 테이블*/
+.schedule-list {
+	width: 1000px;
+	margin: auto;
+	top: 20%;
+}
+
+.schedule-list p {
+	font-size: 2.2rem;
+	text-align: left;
+}
+
+.schedule-list table {
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.schedule-list thead tr {
+	height: 60px;
+	background: #bbd2e8;
+	font-size: 20px;
+	font-weight: Black;
+}
+
+.schedule-list td, th {
+	padding-left: 8px;
+	text-align: center;
+}
+
+.schedule-list tbody tr {
+	height: 48px;
+	border-top: 1px solid #d7e6fd;
+}
+
+.schedule-list table tr:hover {
+	background-color: #e8eff2;
+}
+/*팀별 일정 테이블*/
+.schedule-team-list {
+	width: 1000px;
+	margin: auto;
+	top: 20%;
+}
+
+.schedule-team-list p {
+	font-size: 2.2rem;
+	text-align: left;
+}
+
+.schedule-team-list table {
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.schedule-team-list thead tr {
+	height: 60px;
+	background: #a50034;
+	font-size: 20px;
+	font-weight: white;
+}
+
+.schedule-team-list td, th {
+	padding-left: 8px;
+	text-align: center;
+}
+
+.schedule-team-list tbody tr {
+	height: 48px;
+	border-top: 1px solid #d7e6fd;
+}
+
+.schedule-team-list table tr:hover {
+	background-color: #e8eff2;
+}
+/*팀 테이블 */
+.tr-두산 {
+	background-color: #131230 !important;;
+	color: white;
+}
+
+.tr-키움 {
+	background-color: #972546 !important;;
+	color: white;;
+}
+
+.tr-롯데 {
+	background-color: #041e42 !important;;
+	color: white;
+}
+
+.tr-삼성 {
+	background-color: #074ca1 !important;;
+	color: white;
+}
+
+.tr-한화 {
+	background-color: #FF6600 !important;;
+	color: white;
+}
+
+.tr-KIA {
+	background-color: #ea0029 !important;;
+	color: white;
+}
+
+.tr-NC {
+	background-color: #5c8ebb !important;;
+	color: white;
+}
+
+.tr-LG {
+	background-color: #a50034 !important;;
+	color: white;
+}
+
+.tr-KT {
+	background-color: black !important;;
+	color: white;
+}
+
+.tr-SSG {
+	background-color: #ce0e2d !important;;
+	color: white;
+}
+/*일정 클래스*/
+.schedule-area {
+	padding: 8px;
+	margin: auto;
+	width: 1140px;
+}
+
+.schedule-button {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.move-schedule {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 1.5rem;
+}
+/*메인 홈페이지 클래스*/
+.index-area {
+	padding: 8px;
+	margin: auto;
+	width: 1140px;
+}
+
+.index-area .club-link {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+.club-link img {
+	width: 150px;
+	height: 100px;
+}
+
+.index-area .today-game {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.today-game h2 {
+	text-align: center;
+	color: #0f4279;
+}
+
+.today-game table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0;
+	border-spacing: 1;
+	border-collapse: collapse;
+	border-bottom: 1px solid #d7dbe1;
+}
+.today-game thead tr {
+	height: 50px;
+	background: #b1ccfb;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.today-game td, th {
+	text-align: center;
+	padding: 5px 8px;
+}
+
+.today-game tbody tr {
+	height: 30px;
+	border-top: 1px solid #d7e6fd;
+}
+.index-board{
+	display: flex; 
+	justify-content: space-between;
+}
+.index-board .popular-board{
+	border: 1px solid #d7dbe1;
+	border-radius: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.popular-board h3{
+	border-bottom: 1px solid #d7dbe1;
+	padding: 10px;
+}
+
+.popular-board table td{
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 5px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

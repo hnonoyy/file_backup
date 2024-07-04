@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	id="WebApp_ID" version="5.0">
+	<display-name>tutorial</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+	<!-- /index.hy register -->
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<servlet-class>tutorial.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index.hy</url-pattern>
+	</servlet-mapping>
+	<!-- /fortune.hy register -->
+	<servlet>
+		<servlet-name>fortune</servlet-name>
+		<servlet-class>tutorial.Fortune</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fortune</servlet-name>
+		<url-pattern>/fortune.hy</url-pattern>
+	</servlet-mapping>
+<!-- /greet.h2 register -->
+	<servlet>
+		<servlet-name>greet</servlet-name>
+		<servlet-class>tutorial.Greet</servlet-class>
+		<init-param>
+			<param-name>message</param-name>
+			<param-value>싱그러운 여름</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>greet</servlet-name>
+		<url-pattern>/greet.hy</url-pattern>
+	</servlet-mapping>
+	<!-- /gugudan.hy 
+	<servlet>
+		<servlet-name>gugudan</servlet-name>
+		<servlet-class>tutorial.GuguDan</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gugudan</servlet-name>
+		<url-pattern>/gugudan.hy</url-pattern>
+	</servlet-mapping>
+	register -->
+	
+</web-app>

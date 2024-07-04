@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap')
+	;
+
+* {
+	font-family: "Gamja Flower", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: lighter;
+}
+.no-deco-link {
+	color: #444;
+	text-decoration: none;
+}
+
+.fs-small {
+	font-size: 0.8rem;
+}
+
+.srch-bar {
+	padding: 12px;
+	border-radius: 12px;
+	font-size: 1.1rem;
+	width: 480px;
+}
+
+.login-input {
+	padding: 16px;
+	border: 1px solid #ddd;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.25rem;
+	border-radius: 20px;
+}
+
+.button {
+	padding: 16px;
+	border: 1px solid #ddd;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.25rem;
+	border-radius: 20px;
+	background-color: #8e8ac8;
+	cursor: pointer;
+}
+
+.button2:hover {
+	background-color: #b499ff;
+	color: white;
+}
+
+.bt {
+	padding: 5px 10px;
+	background-color: white;
+	border: 1px solid #8a88c6;
+	border-radius: 10px;
+}
+
+.bt2:hover {
+	background-color: #8a88c6;
+	color: white;
+}
+
+.img-st {
+	width: 20px;
+	opacity: 50%;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
+.tb1 {
+	background-color: hsl(203, 26%, 88%);
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+	padding: 6px 20px 6px 6px;
+	text-align: right;
+	font-weight: bolder;
+}
+
+.tb2 {
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+}
+.write-td1{
+	background-color: hsl(203, 26%, 88%);
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: center;
+}
+.write-td2{
+	border: 1px solid #ddd;
+	padding: 6px 10px;
+	width: 500px;
+	border: inactiveborder;
+	
+}
+.text-td{
+	height: 200px;
+	resize: none;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	
+}
+/* table css======================================*/
+.default-table{
+	border-collapse: collapse;
+ 	width: 100%;
+ 	margin-top: 5px;
+}
+.border-bottom{
+	border-bottom: 1px solid #ddd;
+}
+.default-table td, .default-table th{
+	padding: 10px;
+}
+.text-center{
+	text-align: center;
+}
+
+/*===============================================*/
+.default-img{
+	width: 100px;
+	height: 150px;
+}
+.default-p{
+	margin: 5px;
+}
+.default-list{
+	border :1px solid #ddd;
+	padding: 6px 25px 35px 25px;
+	width: 600px;
+	height:200px;
+	display: flex;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+.default-dl{
+	margin-top : 10px;
+	display: flex;
+}
+.cn1{
+	border: 1px solid #8e8ac8;
+	color: #8e8ac8;
+	margin: 5px;
+}
+.cn2{
+	border: 1px solid #3ed285;
+	color: #3ed285;
+	margin: 5px;
+}
+.cn3{
+	border: 1px solid #518dbf;
+	color: #518dbf;
+	margin: 5px;
+}
+.cn4{
+	border: 1px solid #fb645b;
+	color: #fb645b;
+	margin: 5px;
+}
+.cn5{
+	border: 1px solid #f5d023;
+	color: #f5d023 ; 
+	margin: 5px;
+}
+.category-button{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+.div-style{
+	margin: 10px auto ;
+}
+.title-line{
+	border-bottom-style: dashed;
+	border-color: #ddd;
+	padding: 10px;
+	margin: 20px 40px;
+	text-indent: 10px;
+}
+/*==book-detail=============================================*/
+.bdt{
+	width: 630px;
+	height:20px;
+	text-align: center;
+	padding:10px;	
+	margin: 20px auto 0 auto;
+	border :1px solid #3d3e45;
+}
+.bdb{
+	border :1px solid #ddd;
+	padding: 25px 25px 35px 25px;
+	width: 600px;
+	height: 200px;
+	display: flex;
+	margin: auto;
+}
+.bd-t{
+	width: 630px;
+	margin: 20px auto;
+	font-size: large;
+	font-weight: bold;
+}
+.bd-des{
+	border :1px solid #ddd;
+	padding: 10px 25px 35px 25px;
+	width: 600px;
+	height: 100px;
+	display: flex;
+	margin: 20px auto;
+}
+.button-style1{
+	text-align: center;
+	width: 600px;
+	margin: auto;
+}
+.button-style2{
+	text-align: right;
+	width: 600px;
+	margin: auto;
+}
+.bt-s{
+	padding: 5px 10px;
+	background-color: white;
+	border: 1px solid #53a2d0;
+	border-radius: 10px;
+}
+.bt-s2:hover {
+	background-color: #53a2d0;
+	color: white;
+}
+.bt-s1{
+	padding: 5px 10px;
+	background-color: #53a2d0;
+	border: 1px solid #53a2d0;
+	color: white;
+	border-radius: 10px;
+}
+
+
